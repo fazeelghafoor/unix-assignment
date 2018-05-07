@@ -3,7 +3,7 @@ all: README.md
 
 README.md: guessinggame.sh
 	echo "## The Unix Workbench course assignment" > README.md
-	echo "*by Muhammad Fazeel GHafoor on github pages (https://fazeelghafoor.github.io/unix-assignment/).*" >> README.md
+	echo "*Also available on github pages (https://fazeelghafoor.github.io/unix-assignment/).*" >> README.md
 	echo -n "\n**Make date**: " >> README.md
 	date >> README.md
 	echo -n "\n**Number of lines in guessinggame.sh:** " >> README.md
